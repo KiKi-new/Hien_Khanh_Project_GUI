@@ -291,10 +291,10 @@ elif choice == 'Prediction Tool':
                 lambda x: dicchar[x.group()], txt)
 
         # Tải dữ liệu
-        teen_dict = load_teencode('Cung_cap_HV_ShopeeFood/files/teencode.txt')
-        emoji_dict = load_emoji('Cung_cap_HV_ShopeeFood/files/emojicon.txt')
-        english_dict = load_english_vnmese('Cung_cap_HV_ShopeeFood/files/english-vnmese.txt')
-        wrong_lst = load_wrong_words('Cung_cap_HV_ShopeeFood/files/wrong-word.txt')
+        teen_dict = load_teencode('teencode.txt')
+        emoji_dict = load_emoji('emojicon.txt')
+        english_dict = load_english_vnmese('english-vnmese.txt')
+        wrong_lst = load_wrong_words('wrong-word.txt')
 
         # Hàm tiền xử lý văn bản
         def preprocess_text(text, teen_dict, wrong_lst, english_dict, emoji_dict):
