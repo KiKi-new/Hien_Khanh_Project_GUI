@@ -18,7 +18,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-from pyspark.sql import SparkSession
+#from pyspark.sql import SparkSession
 import joblib
 import base64
 
