@@ -111,7 +111,7 @@ if choice == 'Project Purpose':
 # About Dataset
 
 elif choice == 'About Dataset':
-    st.subheader("Giới thiệu Sentiment Analysis")
+    st.subheader("Understanding Our Data")
     st.write("""
     - **Sentiment Analysis (Phân tích cảm xúc)** là quá trình sử dụng ngôn ngữ tự nhiên, thống kê học và học máy để phân tích và phát hiện cảm xúc của con người thông qua các bình luận, đánh giá hoặc ý kiến.
 	- Công nghệ này giúp doanh nghiệp hiểu rõ hơn về phản hồi của khách hàng, từ đó cải thiện sản phẩm, dịch vụ và tăng cường mối quan hệ với khách hàng.
