@@ -28,7 +28,7 @@ def get_base64_of_bin_file(bin_file):
         data = f.read()
     return base64.b64encode(data).decode()
 # Đường dẫn đến hình ảnh của bạn
-img_path = '/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/background1.jpg'
+img_path = 'background1.jpg'
 img_base64 = get_base64_of_bin_file(img_path)
 # Thiết lập tiêu đề và subheader
 # Sử dụng CSS để thay đổi màu tiêu đề
@@ -132,24 +132,24 @@ elif choice == 'About Dataset':
     - Biểu đồ tròn minh họa tỷ lệ các loại cảm xúc (tích cực, tiêu cực, trung lập) mà doanh nghiệp có thể phân tích.
 """) 
     st.write("**Reviews Dataset**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Review_Dataset.png")
+    st.image("Review_Dataset.png")
     st.write("**Restaurant Dataset**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Restaurant_Dataset.png")
+    st.image("Restaurant_Dataset.png")
     st.write("**Merged Dataset**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Merged_Dataset.png")
+    st.image("Merged_Dataset.png")
     st.write("**Location distribution of restaurant**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Location_Distribution_Of_Restaurant.png")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Location_Distribution_In_Pie.png")
+    st.image("Location_Distribution_Of_Restaurant.png")
+    st.image("Location_Distribution_In_Pie.png")
     st.write("**Price Distribution by District**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Price_Distribution_by_District.png")
+    st.image("Price_Distribution_by_District.png")
     st.write("**Biểu đồ phân phối comment theo thời gian**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Comment_Distribution_by_Time.png")
+    st.image("Comment_Distribution_by_Time.png")
     st.write("**Dine_In_Delivery_Ratio In Pie**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Dine_In_On_Delivery.png")
+    st.image("Dine_In_On_Delivery.png")
     st.write("**Biểu đồ Word Cloud của Processed Comment**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Preprocessed_Comment_Wordcloud.png")
+    st.image("Preprocessed_Comment_Wordcloud.png")
     st.write("Biểu đồ phân phối cảm xúc của comment")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Overall_Sentiment_Distribution.png")
+    st.image("Overall_Sentiment_Distribution.png")
 
 #Analysis Showcase
 
@@ -179,30 +179,30 @@ elif choice == 'Analysis Showcase':
 	- Biểu đồ thanh về cảm xúc theo từng khía cạnh (FOOD, PRICE, SERVICE, LOCATION, AMBIENCE).
    """)
     st.write("**Kết quả mô hình Machine Learning**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Machine_Learning_Model_Results.png")
+    st.image("Machine_Learning_Model_Results.png")
     st.write("**Kết quả mô hình PySpark Big Data**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/PySpark_Big_Data_Result.png")
+    st.image("PySpark_Big_Data_Result.png")
     st.write("**Biều đồ phân phối Sentiment của Comment**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Sentiment_Distribution.png")
+    st.image("Sentiment_Distribution.png")
     st.write("**Biểu đồ Word Cloud của comment sau khi đã thực hiện xử lý ngôn ngữ**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Preprocessed_Comment_Wordcloud.png")
+    st.image("Preprocessed_Comment_Wordcloud.png")
     
     st.subheader("**Báo cáo theo RestaurantID 1**")
     
     st.write("**Biểu đồ phân phối cảm xúc theo RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Sentiment_Distribution_for_RestaurantID_1.png")
+    st.image("Sentiment_Distribution_for_RestaurantID_1.png")
     st.write("**Biểu đồ phân phối cảm xúc theo RestaurantID 1 in Pie**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Sentiment_Distribution_for_RestaurantID_1_Pie.png")
+    st.image("Sentiment_Distribution_for_RestaurantID_1_Pie.png")
     st.write("**Word Cloud của RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Wordcloud_Comment_for_RestaurantID_1.png")
+    st.image("Wordcloud_Comment_for_RestaurantID_1.png")
     st.write("**Positive Word Cloud của RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Positive_Wordcloud_for_RestaurantID_1.png")
+    st.image("Positive_Wordcloud_for_RestaurantID_1.png")
     st.write("**Negative Word Cloud của RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Negative_Wordcloud_for_RestaurantID_1.png")
+    st.image("Negative_Wordcloud_for_RestaurantID_1.png")
     st.write("**Dine In/Delivery Ratio của RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Dine_In_Delivery_Ratio_forRestaurantID_1.png")
+    st.image("Dine_In_Delivery_Ratio_forRestaurantID_1.png")
     st.write("**Báo cáo tổng hợp theo RestaurantID 1**")
-    st.image("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/Bao_cao_tong_hop.png")
+    st.image("Bao_cao_tong_hop.png")
 
 # Prediction Tool
 
@@ -452,7 +452,7 @@ elif choice == 'Prediction Tool':
 
 
         # Đường dẫn tới mô hình đã lưu
-        MODEL_PATH = '/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/svm_model.joblib'
+        MODEL_PATH = 'svm_model.joblib'
 
         # Load SVM model
         loaded_SVM = joblib.load('svm_model.joblib')
@@ -480,7 +480,7 @@ elif choice == 'Prediction Tool':
     with tab2:
 
     # Đọc dữ liệu từ file CSV
-        result_df = pd.read_csv("/Users/kiki/Desktop/DATA/DOQUYNHHIEN/DoAnTotNghiep/GUI/GUI_project_3/result_df.csv")
+        result_df = pd.read_csv("result_df.csv")
 
         st.header("Chủ nhà hàng: Báo cáo tổng hợp")
         restaurant_id = st.text_input("Nhập vào ID nhà hàng:")
