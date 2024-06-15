@@ -422,7 +422,7 @@ elif choice == 'Prediction Tool':
             return aspect_sentiments
 
         # Tải danh sách stop words
-        with open('Cung_cap_HV_ShopeeFood/files/vietnamese-stopwords.txt', 'r', encoding='utf-8') as file:
+        with open('vietnamese-stopwords.txt', 'r', encoding='utf-8') as file:
             stop_words = file.read().splitlines()
 
         stop_words.extend(['nhà hàng', 'quán ăn', 'tiệm', 'quán', 'cửa hàng', 'chổ', 'chổ này', 'quán này', 'ở đây', 'tiệm này', 'chỗ này',
